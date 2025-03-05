@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: pages-build-deployment
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
         env:
            BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
-           npm run build
+           pnpm build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
