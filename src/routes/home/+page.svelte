@@ -15,7 +15,7 @@
 	
 	<div class="edges">
 		<div id="middle">
-			<div class="edges">
+			<div id="bg" class="edges">
 				<img src={ fire } alt="FIYAAAAAAAAAAA"/>
 			</div>
 		</div>
@@ -32,5 +32,8 @@
 	}
 	div#middle {
 		border: 3px solid black;
+	}
+	div#bg {
+		background-color: #afafaf;
 	}
 </style>
