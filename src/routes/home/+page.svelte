@@ -3,7 +3,7 @@
 </svelte:head>
 
 <script lang="ts">
-	import fire from "./fire.png";
+	import fire from "$lib/assets/fire.png";
 </script>
 
 
@@ -13,5 +13,5 @@
 	<h2>Please help me, here too much raining,</h2>
 	<h1>Woooooooo!</h1>
 	
-	<img src={ fire } alt=""/>
+	<img src={ fire } alt="FIYAAAAAAAAAAA"/>
 </main>
