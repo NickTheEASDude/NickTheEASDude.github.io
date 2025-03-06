@@ -13,5 +13,24 @@
 	<h2>Please help me, here too much raining,</h2>
 	<h1>Woooooooo!</h1>
 	
-	<img src={ fire } alt="FIYAAAAAAAAAAA"/>
+	<div class="edges">
+		<div id="middle">
+			<div class="edges">
+				<img src={ fire } alt="FIYAAAAAAAAAAA"/>
+			</div>
+		</div>
+	</div>
 </main>
+
+<style>
+	div {
+		width: fit-content;
+		height: fit-content;
+	}
+	div.edges {
+		border: 1px solid white;
+	}
+	div#middle {
+		border: 3px solid black;
+	}
+</style>
