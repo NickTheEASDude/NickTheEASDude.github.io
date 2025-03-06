@@ -7,7 +7,7 @@
 </script>
 
 
-<main>
+<main class="outlined">
 	<h3>Hello. How are you?</h3>
 	<h2>I am under the water.</h2>
 	<h2>Please help me, here too much raining,</h2>
