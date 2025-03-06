@@ -3,19 +3,8 @@
 </svelte:head>
 
 <script lang="ts">
-	import { onMount } from "svelte";
-
-	let finalCanvas: HTMLCanvasElement;
-
-	onMount(() => {
-		let ctx : any = finalCanvas.getContext("2d");
-		ctx.strokeStyle = "#0000FF";
-		ctx.moveTo(0,0);
-		ctx.lineTo(200,100);
-		ctx.stroke();
-	});
+	import fire from "$lib/assets/fire.png";
 </script>
-
 
 
 <main>
@@ -24,11 +13,5 @@
 	<h2>Please help me, here too much raining,</h2>
 	<h1>Woooooooo!</h1>
 	
-	<canvas bind:this={ finalCanvas } width="200" height="100"></canvas>
+	<img src={ fire } alt=""/>
 </main>
-
-<style>
-	canvas {
-		border: 1px solid black;
-	}
-</style>
