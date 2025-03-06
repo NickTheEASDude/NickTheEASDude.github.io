@@ -1,1 +1,0 @@
-import{t as a,a as p}from"../chunks/ByFFcKs5.js";import"../chunks/CFAWVoYt.js";import{$ as r}from"../chunks/HRQlALko.js";import{h as e}from"../chunks/BTsg2AiP.js";var m=a('<p class="svelte-12mz6xb">THANK GOD IT FINALLY WORKED!</p>');function l(o){var t=m();e(s=>{r.title="IT WORKED OMG!"}),p(o,t)}export{l as component};
