@@ -3,7 +3,7 @@
 </svelte:head>
 
 <script lang="ts">
-	import fire from "$lib/assets/fire.png";
+	import fire from "./fire.png";
 </script>
 
 
