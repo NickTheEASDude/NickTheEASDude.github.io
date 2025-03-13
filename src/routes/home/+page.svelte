@@ -5,8 +5,6 @@
 <script lang="ts">
 	import fire from "./fire.png";
 </script>
-
-
 <main class="outlined">
 	<h3>Hello. How are you?</h3>
 	<h2>I am under the water.</h2>
@@ -34,6 +32,6 @@
 		border: 3px solid black;
 	}
 	div#bg {
-		background-color: #afafaf;
+		background-image: url("brick.png");
 	}
 </style>
