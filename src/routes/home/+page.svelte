@@ -12,14 +12,18 @@
 	<h1>Woooooooo!</h1>
 	
 	<div class="edges">
-		<div id="middle">
+		<div class="middle">
 			<div class="bg edges">
 				<img src={ fire } alt="FIYAAAAAAAAAAA"/>
 			</div>
 		</div>
 	</div>
 	<br style="height: 25px;"/>
-	<div class="bg" style=" width: 900px; height: 600px; border: 3px solid black;"></div>
+	<div class="edges">
+		<div class="middle">
+			<div class="bg edges" style=" width: 900px; height: 600px;"></div>
+		</div>
+	</div>
 </main>
 
 <style>
@@ -30,7 +34,7 @@
 	div.edges {
 		border: 1px solid white;
 	}
-	div#middle {
+	div.middle {
 		border: 3px solid black;
 	}
 	div.bg {
