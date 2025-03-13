@@ -13,11 +13,13 @@
 	
 	<div class="edges">
 		<div id="middle">
-			<div id="bg" class="edges">
+			<div class="bg edges">
 				<img src={ fire } alt="FIYAAAAAAAAAAA"/>
 			</div>
 		</div>
 	</div>
+	<br style="height: 25px;"/>
+	<div class="bg" style=" width: 900px; height: 600px; border: 3px solid black;"></div>
 </main>
 
 <style>
@@ -31,7 +33,7 @@
 	div#middle {
 		border: 3px solid black;
 	}
-	div#bg {
+	div.bg {
 		background-image: url("brick.png");
 	}
 </style>
