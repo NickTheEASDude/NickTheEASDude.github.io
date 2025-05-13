@@ -3,18 +3,13 @@
 </svelte:head>
 
 <script lang="ts">
-	import fire from "./fire.png";
+	import frisbee from "$imports/frisbee.png";
 </script>
 <main class="outlined">
-	<h3>Hello. How are you?</h3>
-	<h2>I am under the water.</h2>
-	<h2>Please help me, here too much raining,</h2>
-	<h1>Woooooooo!</h1>
-	
 	<div class="edges">
 		<div class="middle">
 			<div class="bg edges">
-				<img src={ fire } alt="FIYAAAAAAAAAAA"/>
+				<img src={ frisbee } alt="FRISBEEEEEEEEEEEEEEEEE"/>
 			</div>
 		</div>
 	</div>
