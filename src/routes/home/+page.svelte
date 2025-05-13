@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>I'm tired...</title>
+	<title>Portfolio</title>
 </svelte:head>
 
 <script lang="ts">
